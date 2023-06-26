@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#663399, #00Bfff);
+  }
+  
+  .piano {
+    display: flex;
+    position: relative;
+    margin-left: 4px;
+    top: 40px;
+    
+  }
+  
+  .white-key {
+    width: 40px;
+    height: 120px;
+    background-color: #FFF;
+    border: 4px solid black;
+    border-radius: 0 0 6px 6px;
+    margin-left: -4px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .white-key.active {
+    background-color: #C0C0C0;
+  }
+  
+  .black-key {
+    padding: 10px;
+    position: absolute;
+    width: 24px;
+    height: 80px;
+    background-image: linear-gradient(#000000, #303030);
+    background: rgb(2, 230, 48);
+    border: 3px solid black;
+    border-radius: 0 0 7px 7px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .black-key.active {
+    background-image: linear-gradient(#000000, #101010);
+  }
+  
+  .Db4-key {
+    left: 22px;
+  }
+  
+  .Eb4-key {
+    left: 58px;
+  }
+  
+  .Gb4-key {
+    left: 130px;
+  }
+  
+  .Ab4-key {
+    left: 166px;
+  }
+  
+  .Bb4-key {
+    left: 202px;
+  }
+  
+  .Db5-key {
+    left: 274px;
+  }
+  
+  .Eb5-key {
+    left: 310px;
+  }
+  .white-key.active {
+    background-color: #C0C0C0;
+  }
+  .song{
+      position: absolute;
+      background: #fff;
+      font-family: tahoma;
+      width: 500px;
+      height: 100px;
+      padding: 10px;
+      top: 10px;
+      border: 1px solid #000;
+      border-radius: 0  0 7px 7px;
+      z-index: 1;
+  }
+ 
+  .test{
+    font-size: 60px;
+    color: #000;
+    
+ background: red;
+  }
